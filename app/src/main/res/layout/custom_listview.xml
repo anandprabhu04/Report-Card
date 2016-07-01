@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/report_list_padding">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Student Name"
+        android:id="@+id/name_text"
+        android:padding="@dimen/list_item_padding"
+        android:textAppearance="@android:style/TextAppearance.Medium" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="English Grade"
+        android:id="@+id/english_grade_text"
+        android:padding="@dimen/list_item_padding"
+        android:textAppearance="@android:style/TextAppearance.Small" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Maths Grade"
+        android:id="@+id/maths_grade_text"
+        android:padding="@dimen/list_item_padding"
+        android:textAppearance="@android:style/TextAppearance.Small" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Science Grade"
+        android:id="@+id/science_grade_text"
+        android:padding="@dimen/list_item_padding"
+        android:textAppearance="@android:style/TextAppearance.Small" />
+
+</LinearLayout>
